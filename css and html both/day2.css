@@ -1,0 +1,15 @@
+h3{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    
+    font-weight: bold;
+}
+p{
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color:orange;
+}
+span{
+    color: blue;
+    background-color:aquamarine;
+}
