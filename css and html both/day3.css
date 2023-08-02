@@ -1,0 +1,45 @@
+span{
+    color: blue;
+    background-color: black;
+    height: 100px;
+    width: 400px;
+    border-color: rgb(248, 245, 239);
+    border-style: solid;
+    border-radius: 50px;
+}
+div{
+    color: orange;
+    background-color:purple;
+    border-style: solids;
+    width: auto;
+    height:auto
+    border-color: brown;
+    border-radius: 10px;
+}
+h3{
+    color: crimson;
+    background-color:rgb(20, 21, 20) ;
+    height: 100px;
+    width: auto;
+    border-style: solids;
+    border-radius: 5px;
+    border-top: 2px ;
+    border-left: 5px solid rgb(205, 51, 205);
+    border-bottom: 5px solid hotpink;
+    border-top: 5px solid blue;
+    border-right: 5px solid green;
+
+
+}  
+h4{
+    background-color: black;
+    height: 500px;
+    width: 1000px;
+    background-image: url('https://www.w3schools.com/css/paris.jpg');
+    background-repeat:no-repeat;/* repeat-x and repeat-y will make it repeat on thr x and y asis*/
+    background-position: center right;
+    
+    
+    
+
+}
