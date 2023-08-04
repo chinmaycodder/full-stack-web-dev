@@ -1,0 +1,31 @@
+.navbar{
+    background-color: rgb(10, 10, 10);
+    border-radius: 30px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:left;
+    list-style: none;
+    margin:13px 20px;
+    
+}
+.navbar li a:hover{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: rgb(247, 13, 13);
+    list-style: none;
+    background-color: orange;
+}
+.search{
+    float: right;
+    color: rgb(232, 21, 21);
+    padding: 12px 25px;
+    margin: auto;
+}
+.navbar input{
+    border: 2px solid rgb(217, 31, 31);
+    border-radius: 14px;
+    padding: 3px 17px;
+}
