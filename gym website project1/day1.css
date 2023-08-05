@@ -1,0 +1,59 @@
+/*CSS Reset*/
+body{
+    color: rgb(30, 28, 28);
+    margin:0px;
+    padding: 0px;
+    background:url('bordeaux-963810_1280.jpg');
+}
+.left{
+    
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    
+}
+.left img{
+    width: 65px;
+    filter: grayscale(60%);
+}
+.mid{
+    display: block;
+    color: rgb(217, 255, 0);
+    margin: 20px auto;
+    border: 2px solid darkgrey;
+    width: 50%;
+    top: 30px;
+    
+    
+    
+}
+.right{
+    color: rgb(15, 15, 10);
+    position:absolute;
+    right: 34px;
+    top: 20px;
+    border: 5px solid rgb(48, 241, 10);
+    display: inline-block;
+   
+}
+.navbar{
+    display: inline-block;
+
+}
+.navbar li{
+    display: inline-block;
+    font-size: 26px;
+   
+    
+}
+.navbar li a{
+    color : rgb(248, 15, 15);
+    text-decoration: none;
+    padding: 15px 23px;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+   
+}
+
