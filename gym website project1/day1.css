@@ -1,59 +1,132 @@
 /*CSS Reset*/
-body{
+body {
     color: rgb(30, 28, 28);
-    margin:0px;
+    margin: 0px;
     padding: 0px;
-    background:url('bordeaux-963810_1280.jpg');
+    background: url('bordeaux-963810_1280.jpg');
+    font-family: 'Bebas Neue', sans-serif;
 }
-.left{
-    
+
+.left {
+
     display: inline-block;
     position: absolute;
-    left: 34px;
+    left: 60px;
     top: 20px;
-    
-}
-.left img{
-    width: 65px;
-    filter: grayscale(60%);
-}
-.mid{
-    display: block;
-    color: rgb(217, 255, 0);
-    margin: 20px auto;
-    border: 2px solid darkgrey;
-    width: 50%;
-    top: 30px;
-    
-    
-    
-}
-.right{
-    color: rgb(15, 15, 10);
-    position:absolute;
-    right: 34px;
-    top: 20px;
-    border: 5px solid rgb(48, 241, 10);
-    display: inline-block;
-   
-}
-.navbar{
-    display: inline-block;
 
 }
-.navbar li{
-    display: inline-block;
+
+.left img {
+    border: 2px solid gray;
+    line-height: 22px;
+    font-size: 22px;
+    width: 100px;
+    filter: grayscale(100%);
+    margin: auto;
+    text-align: center;
+
+}
+
+.left div {
+    line-height: 19px;
     font-size: 26px;
-   
-    
-}
-.navbar li a{
-    color : rgb(248, 15, 15);
-    text-decoration: none;
-    padding: 15px 23px;
-}
-.navbar li a:hover,.navbar li a.active{
-    text-decoration: underline;
-   
+    text-align: center;
 }
 
+.mid {
+    display: block;
+    color: rgb(233, 237, 220);
+    margin: 29px auto;
+
+    width: 50%;
+    top: 20px;
+
+
+
+}
+
+.right {
+    color: rgb(15, 15, 10);
+    position: absolute;
+    right: 34px;
+    top: 33px;
+
+
+    display: inline-block;
+
+}
+
+.navbar {
+    display: inline-block;
+    margin: auto;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: rgb(12, 11, 11);
+
+    width: 500%;
+    text-decoration: none;
+    padding: 20px 20px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.avtive {
+    text-decoration: underline;
+    color: rgb(131, 166, 180);
+}
+
+.btn {
+    margin: 0px 8px;
+    padding: 3px 5px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: black;
+    color: rgb(132, 0, 255);
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container{
+    border: 2px solid rgb(78, 103, 86);
+   
+    color: rgba(19, 11, 11, 0.989);
+    margin: 110px 80px;
+    padding: 75px;
+    width: 33%;
+    display: block;
+    border-radius: 30px;
+
+
+}
+.container h2{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 50%;
+    margin:20px auto;
+    text-align: center;
+
+}
+.form-group{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    display: block;
+    width:500px ;
+    padding: 9px;
+    
+    font-size: 20px;
+    margin: 10px auto;
+    border-radius: 20px;
+}
