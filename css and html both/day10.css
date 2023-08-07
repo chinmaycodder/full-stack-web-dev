@@ -1,0 +1,11 @@
+div p{
+    color: red;
+    font-weight: bolder;
+    background-color: orange;
+}
+p{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+}
