@@ -89,8 +89,9 @@
 
 #home h1 {
     color: white;
-    background-color: black;
+    /* background-color: black; */
     text-align: center;
+    font-size: 20px;
 }
 
 #home p {
@@ -138,7 +139,7 @@
 }
 
 /* client section */
-#client-center {
+#client-center{
     position: relative;
 }
 
@@ -164,8 +165,9 @@
 }
 
 #clients img {
-    height: 100px;
-
+    width: 66px;
+    padding: ;
+height: auto;
 }
 
 
