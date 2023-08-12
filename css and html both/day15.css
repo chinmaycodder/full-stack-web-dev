@@ -1,0 +1,26 @@
+#box{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    transition-property: background-color;
+    color: rgb(244, 4, 4);
+    background-color: rgb(228, 238, 226);
+    transition-duration: 2s;
+     transition-timing-function:ease-in-out; 
+    /* transition-delay: 1s; */
+
+}
+#box:hover{
+    background-color: rgb(17, 1, 1);
+    height: 500px;
+    width: 300px;
+    border-radius: 50px;
+    font-family: fantasy;
+    font-weight: bold;
+}
+body{
+    background-color: rgb(9, 169, 238);
+}

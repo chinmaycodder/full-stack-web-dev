@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+}
+.card{
+    padding:23px 12px;
+    margin: 23px 12px;
+    /* border:2px solid black; */
+    background-color: rgb(0, 255, 76);
+
+    /* box-shadow: -3px -1px green; */
+    /* here 33px show how u spread the shadow of the box */
+    /* and here 25px shos the how much shadow you have to give to your box */
+
+    box-shadow: 10px 10px 25px 33px rgba(34, 43, 444.5,454.5);
+    
+}
