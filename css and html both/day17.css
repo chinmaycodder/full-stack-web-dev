@@ -1,8 +1,36 @@
-.box{
-    background-color:red;
-    border: 2px solid black;
-    border-radius: 8px;
-    height: 450px;
-    width: 450px;
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
+
+
+
+.box{
+ display: flex;
+ align-items: center;
+ background-color: rgb(54, 6, 230);
+ border: 2px solid black;
+ border-radius: 6px;
+ height: 400px;
+ width: 400px;
+ transition: all 1s ease-in-out;
+ /* transform: rotate(45deg); */
+
+}
+.box:hover{
+    transform: rotate(360deg);
+    cursor: pointer;
+    /* transform: skew(35deg); */
+    /* transform: scale(2); */
+    /* transform: translatey(120px); */
+    transform: translate(145px 130px);
+    /* transform: translate3d(5px); */
+}
+.container{
+    height: 80vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

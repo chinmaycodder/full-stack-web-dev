@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>introductionn to javascript</title>
+    <title>Document</title>
     <link rel="stylesheet" href="day1.css">
-    <script src="day1.js"></script>
+
 </head>
+
 <body>
-    <div class="container">
-        <div class="row">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, rerum. Quia impedit blanditiis explicabo in quisquam perspiciatis minima id officiis magni! Aut, blanditiis fugiat. Voluptatem!x
-            </p>
-        </div>
-    </div>
-    
+
+    <button> roll no.1:chinmay wadhwa </button>
+
+
+    <script>  let namastebtn = document.querySelector('button');
+        namastebtn.addEventListener('click', inputmsg);
+
+
+        function inputmsg() {
+            let name = prompt('enter name of student');
+            namastebtn.textContent = 'roll no.1:' + name;
+
+
+
+        }
+    </script>
+
 </body>
+
 </html>
