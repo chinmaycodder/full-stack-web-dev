@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Borel&family=Bree+Serif&family=IBM+Plex+Sans+Condensed&display=swap");
+
+body {
+    background-color: antiquewhite;
+}
+
+/* navigation css console */
+nav {
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav>ul {
+    align-items: center;
+    display: flex;
+    height: 65px;
+    color: rgb(34, 206, 94);
+    background-color: black;
+    list-style-type: none;
+}
+
+nav ul:hover {
+    cursor: pointer;
+}
+
+nav ul li {
+    padding: 0px 12px;
+}
+
+
+
+/* img  css console  */
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.brand>img {
+    padding: 0px 5px 8px;
+    align-items: center;
+    width: 66px;
+    height: 57px;
+}
+
+/* container css console */
+.container {
+    min-height: 64vh;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    border-radius: 12px;
+    width: 70%;
+    margin: 23px auto;
+    padding: 30px;
+    background: url("https://www.desktopbackground.org/download/1366x768/2012/05/07/386072_black-music-wallpapers-hd_1600x900_h.jpg") center no-repeat;
+}
+
+
+
+
+
+
+/* bottom css  console */
+.bottom {
+    position: sticky;
+    height: 87px;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.947);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background:url(); */
+
+
+
+}
+
+
+
+
+/* icons css console */
+.icon {
+    margin: 12px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+/* progerss bar css console */
+
+#myprogressbar {
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+/* songs items css console */
+
+.SongItems {
+    height: 66px;
+    display: flex;
+    width: 143%;
+    border-radius: 34px;
+    background-color: white;
+    color: black;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    font: bold;
+    cursor: pointer;
+
+}
+.SongItems:hover{
+    background-color:rgb(34, 206, 94);
+    color: white;
+}
+
+
+
+
+.SongItems>img {
+    width: 88px;
+    margin: 0 23px 0;
+    background-color: black;
+    border-radius: 30px;
+}
+
+
+.tiktalk {
+    margin: 0 23px;
+    cursor: pointer;
+
+}
+.song_item_container {
+    margin-top: 70px;
+}
+.music{
+    position: absolute;
+  left: 10vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.music>img{
+    opacity: 0;
+    transition:opacity 0.7s ease-in ;
+}
