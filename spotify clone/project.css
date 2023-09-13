@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Borel&family=Bree+Serif&family=IBM+Plex+Sans+Condensed&display=swap");
 
 body {
-    background-color: antiquewhite;
+    background-color:  #B3F08E;
 }
 
 /* navigation css console */
@@ -15,7 +15,7 @@ nav>ul {
     display: flex;
     height: 65px;
     color: rgb(34, 206, 94);
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.491);
     list-style-type: none;
 }
 

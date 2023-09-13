@@ -10,18 +10,21 @@ let SongItems=  Array.from(document.getElementsByClassName('SongItems'));
 
 
 
+
 let songs=[
-   { songName:"namo namo",filePath:"namo namo.mp3",coverPath:"namo namo.jpeg"},
+   { songName:"namo namo",filePath:"1.mp3",coverPath:"namo namo.jpeg"},
    { songName:"blue eyes",filePath:"blue eyes.mp3",coverPath:"yo yo.jpeg"},
    { songName:"namo namo",filePath:"namo namo.mp3",coverPath:"namo namo.jpeg"},
    { songName:"namo namo",filePath:"namo namo.mp3",coverPath:"namo namo.jpeg"},
    { songName:"namo namo",filePath:"namo namo.mp3",coverPath:"namo namo.jpeg"},
 ]
  
-    SongItems.forEach((element, i) => {
-        console.log('elemet,i')
-        element.getElementsByTagName("img")[0].src= [1]
-    })
+    
+   SongItems.forEach((Element ,i)=>{
+    console.log(Element,i);
+    Element.getElementsByTagName("img")[0].src = songs[i].coverPath
+    Element.getElementsByClassName("songlistplay")[0].innerText = songs[i].songlistplay;
+   })
 
 
 
