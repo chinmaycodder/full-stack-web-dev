@@ -1,0 +1,23 @@
+ul{
+    color: rgb(245, 241, 241);
+    list-style: none;
+    margin: 33px;
+    display: flex;
+    
+    justify-content: center;
+    position: relative;
+}
+li{
+    margin: 10px;
+    /* cursor: pointer; */
+    font-size: 33px;
+    
+}
+li:hover{
+    cursor: pointer;
+    color: red;
+}
+body{
+    background-color: black;
+    
+}

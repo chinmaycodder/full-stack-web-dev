@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Navbar</title>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    <header>
+        <nav>
+            
+            <div class="right">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/">about  </a></li>
+                    <li><a href="/">blogs</a></li>
+                    <li><a href="/">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="first_section">
+            <div class="left_section">
+
+
+                <div class="image_text">
+
+                    <div class="box">
+                        Hi,my name is <span class="class">Chinmay</span> and ,
+                        I am a passionate
+                        <span id="element"></span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="right_section">
+
+                <img src="1.jpg" alt="">
+            </div>
+
+        </section>
+<script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['web developer', 'game developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</script>
+
+
+
+
+</body>
+</html>

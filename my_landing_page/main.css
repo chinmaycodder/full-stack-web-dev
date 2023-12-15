@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  font-family: "IBM Plex Mono", monospace;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+/* div classes console */
+.left {
+  font-size: 1.5rem;
+}
+
+/* navbar css connsole  */
+
+nav {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  
+  text-align: center;
+  height: 50px;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  color: black;
+  letter-spacing: 2px;
+  /* cursor: pointer; */
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  font-size: 20px;
+  list-style: none;
+
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav ul li a:hover {
+  color: white;
+  background-color: black;
+}
+
+/* image concole for the css  */
+
+.right_section > img {
+  height: 75vh;
+  margin-top: 50px;
+  margin-left: 592px;
+  position: sticky;
+  border-radius: 20px;
+}
+
+.image_text {
+  color: rgb(255, 255, 253);
+
+  font-weight: bold;
+  font-size: 45px;
+  text-transform: uppercase;
+  justify-content: center;
+  position: absolute;
+  margin-bottom: 24px;
+  margin-top: -140px;
+  text-align: center;
+  align-items: center;
+  top: 291px;
+  left: 57px;
+  right: -343px;
+  bottom: 319px;
+}
+
+.image_text:hover {
+  cursor: pointer;
+  color: black;
+}
+.box:hover {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.669);
+}
+
+.class {
+  color: white;
+}
+
+/* section console for the css */
+.first_section {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+
+.left_section {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  color: black;
+  margin-left: 29px;
+  margin-bottom: 10px;
+}
+
+.right_section {
+  margin: 30px 0;
+  position: relative;
+}
+
+.right_section > h3 {
+  margin-left: 50px;
+  text-align: -webkit-center;
+}
+
+#element {
+  color: gray;
+}
+
+.second_section {
+  max-width: 80vw;
+  margin: auto;
+}

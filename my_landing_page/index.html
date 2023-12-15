@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <!-- <script src="hello.js"></script> -->
+
+    <title>my landing page for the project </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">CHINMAY'S PORTFOLIO</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/">ABOUT ME </a></li>
+                    <li><a href="/">MY PROJECTS</a></li>
+                    <li><a href="/">CONTACT ME</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="first_section">
+            <div class="left_section">
+
+
+                <div class="image_text">
+
+                    <div class="box">
+                        Hi,my name is <span class="class">Chinmay</span> and ,
+                        I am a passionate
+                        <span id="element"></span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="right_section">
+
+                <img src="1.jpg" alt="">
+            </div>
+
+        </section>
+
+
+        
+        <hr>
+
+        <section class="second_section">
+            <h2>past experiance </h2>
+        </section>
+
+
+    </main>
+    <!-- Setup and start animation! -->
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['web developer', 'game developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

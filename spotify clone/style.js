@@ -11,6 +11,7 @@ let SongItems=  Array.from(document.getElementsByClassName('SongItems'));
 
 
 
+
 let songs=[
    { songName:"namo namo",filePath:"1.mp3",coverPath:"namo namo.jpeg"},
    { songName:"blue eyes",filePath:"blue eyes.mp3",coverPath:"yo yo.jpeg"},

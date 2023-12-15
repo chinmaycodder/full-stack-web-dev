@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+
+
+/* navbar_prorass */
+
+nav {
+  background-color: rgba(3, 255, 146, 0.717);
+  color: rgb(15, 15, 15);
+  height: 50px;
+  display: flex;
+  font-size: 30px;
+  align-items: center;
+  font-family: 'Silkscreen', sans-serif;;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+
+/* gaming zone */
+
+.game{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.container{
+    
+}
+
+
+
