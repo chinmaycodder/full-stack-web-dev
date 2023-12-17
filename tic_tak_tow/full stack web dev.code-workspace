@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../react.js/chinmay/src"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "full stack web dev"
+  }
+}

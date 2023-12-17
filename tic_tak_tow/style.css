@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
 
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
 /* navbar_prorass */
@@ -11,27 +13,51 @@ nav {
   display: flex;
   font-size: 30px;
   align-items: center;
-  font-family: 'Silkscreen', sans-serif;;
+  font-family: "Silkscreen", sans-serif;
 }
 
 nav ul {
   list-style-type: none;
 }
 
-
 /* gaming zone */
 
-.game{
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-
+.game {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 
-.container{
-    
+.container {
+  display: grid;
+  grid-template-rows: repeat(3, 10vw);
+  grid-template-columns: repeat(3, 10vw);
+  font-family: "Silkscreen", sans-serif;
+}
+  
+
+
+.box{
+  border: 2px solid black;
+  font-size: 5vw;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box:hover{
+  background-color: rgb(112, 220, 249);
+}
+
+.game_info{
+  padding:0,34px;
+  font-family: 'Bebas Neue';
 }
 
 
 
+/* box image */
+.img{
+  display: none;
+}
